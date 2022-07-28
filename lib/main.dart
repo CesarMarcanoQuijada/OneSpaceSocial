@@ -38,7 +38,7 @@ class HomeScreen extends StatelessWidget {
             height: Get.height,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('images/landing_background.png'),
+                image: NetworkImage('/assets/assets/images/landing_background.png'),
                 fit: BoxFit.cover,
                 opacity: 0.5,
               ),
